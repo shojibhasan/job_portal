@@ -55,6 +55,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'job_portal.urls'
+AUTH_USER_MODEL = "account_management.User" 
 
 TEMPLATES = [
     {
